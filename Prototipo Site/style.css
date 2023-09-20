@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    margin: 0px 0px 3px 0px;
+    border-bottom: solid darkcyan;
+}
+
+.header .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: orange;
+    text-decoration: none;
+}
+
+:hover {
+    text-decoration: underline;
+}
+
+ .header ul {
+    color: orange;
+    width: 400px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: aqua;
+}
